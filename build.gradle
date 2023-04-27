@@ -139,6 +139,12 @@ dependencies {
      * since versions are all resolved and controlled by the dependency management
      * plugin via the CAS bom.
      **/
+    implementation "org.apereo.cas:cas-server-core-notifications"
+    implementation "org.apereo.cas:cas-server-support-json-service-registry"
+    implementation "org.apereo.cas:cas-server-support-jdbc-drivers"
+    implementation "org.apereo.cas:cas-server-support-jdbc"
+    implementation "org.apereo.cas:cas-server-support-pm-webflow"
+    implementation "org.apereo.cas:cas-server-support-pm-jdbc"
  
     /**
     * Do NOT modify the lines below or else you will risk breaking the build.
