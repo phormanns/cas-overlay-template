@@ -145,6 +145,11 @@ dependencies {
     implementation "org.apereo.cas:cas-server-support-jdbc"
     implementation "org.apereo.cas:cas-server-support-pm-webflow"
     implementation "org.apereo.cas:cas-server-support-pm-jdbc"
+    implementation "org.apereo.cas:cas-server-support-account-mgmt"
+    implementation "org.apereo.cas:cas-server-support-oidc"
+    implementation "org.apereo.cas:cas-server-support-oauth-webflow"
+    implementation "net.hostsharing.churchtools:ctcasauth:1.1.2"
+
  
     /**
     * Do NOT modify the lines below or else you will risk breaking the build.
